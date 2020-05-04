@@ -1,0 +1,12 @@
+{
+  "name": "@slim/serve",
+  "version": "0.0.1",
+  "description": "File serving for slim",
+  "main": "index.js",
+  "repository": "https://github.com/svi3c/slim-server.git",
+  "author": "Sven Rogge <sreglitzki@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@slim/parse",
+  "version": "0.0.1",
+  "description": "A body parser for slim",
+  "main": "index.js",
+  "repository": "https://github.com/svi3c/slim-server.git",
+  "author": "Sven Rogge <sreglitzki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slim/core": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4"
+  }
+}

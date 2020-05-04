@@ -1,0 +1,33 @@
+{
+  "name": "slim-server",
+  "version": "0.0.1",
+  "description": "A slim node http server implementation",
+  "main": "index.js",
+  "repository": "https://github.com/svi3c/slim-server.git",
+  "author": "Sven Rogge <sreglitzki@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write '**/*.{ts,json}'"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/phin": "^3.4.0",
+    "jest": ">=25.0.0 <26.0.0",
+    "phin": "^3.4.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
